@@ -1,0 +1,18 @@
+.list {
+	display: flex;
+	gap: 8px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.link {
+	display: inline-block;
+	padding: 8px 16px;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.link:visited {
+	color: unset;
+}
