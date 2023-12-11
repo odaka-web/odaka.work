@@ -1,0 +1,16 @@
+:root {
+	--color-black: #555;
+	--letter-spacing: 0.025em;
+
+	--text-color: var(--color-black);
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html {
+	letter-spacing: var(--letter-spacing);
+	font-family: serif;
+	color: var(--text-color);
+}
